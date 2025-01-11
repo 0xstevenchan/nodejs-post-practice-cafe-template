@@ -3,10 +3,10 @@ var router = express.Router();
 
 /* Your customer contact you!
   The variable req contains name, email and message.
-  Please store it to your Mongodb database (127.0.0.1:27017).
+  Store it to your Mongodb database (127.0.0.1:27017).
 */
 router.post('/', function(req, res, next) {
-  res.send('Hello! I am handleContact.js');
+  res.send('Hello! I am handleContact.js in "routes" folder');
 });
 
 module.exports = router;
